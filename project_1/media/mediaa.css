@@ -1,0 +1,113 @@
+@media only screen and (max-width:576px){
+
+.contener{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+header{
+  display: none;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  margin: 5px auto;
+  height: 50px;
+}
+.navbar .box-gam{
+  display: inline-block;
+}
+.navbar> a{
+  text-align: center;
+  margin-left: 50px;
+}
+.menu-nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background-color:rgb(12, 12, 12);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transform: translateX(-160%);
+  transition: 0.5s ease-in;
+}
+.open{
+  transform: translate(0);
+}
+.menu-nav li{
+  margin: 20px 0;
+}
+.menu-nav li a{
+  font-size: 25px;
+  color: rgb(148, 127, 8);
+  text-decoration: none;
+}
+
+
+.info-main{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.info-num{
+  width: 50%;
+  margin-right:20px ;
+  text-align: left;
+}
+.info-num .width{
+  width: 150px;
+  height: 10px;
+  background-color: rgb(73, 71, 73);
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.width .absal{
+  width: 50px;
+  height: 10px;
+  background-color: rgb(255, 94, 0);
+  border-radius: 15px;
+}
+.info-work{
+  width: 50%;
+  margin-left: 80px;
+
+}
+.info-work h1 a{
+  font-size: 25px;
+}
+.info-work p{
+  font-size: 16px;
+  width: 200px;
+}
+.card{
+  position: relative;
+  right: 30px;
+  top: 40px;
+  /* width: 100%; */
+  display: grid;
+grid-template-columns: auto;
+  margin: 20px;
+  background-color: transparent;
+  float: left;
+}
+.card .m{
+  margin: 20px;
+  width: 393px;
+ min-height: 100px;
+}
+.card .imgbox{
+  display: none;
+  background-color: transparent;
+}
+.card .m p{
+  width: 250px;
+}
+
+}

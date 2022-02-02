@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.2s ease-in;
+}
+
+.contener{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/dark-fire-flame-hand-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  overflow-y: hidden;
+}
+/* header  */
+
+header{
+  width: 8%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(19, 20, 19, 0.801);
+}
+ header .menu-gam{
+   width: 100%;
+   height: 150px;
+  background-color: rgba(43, 46, 43, 0.2);
+
+ }
+header .menu-gam i{
+  font-size: 80px;
+  text-align: center;
+  margin: 15px 20px;
+  color: white;
+  cursor: pointer;
+
+}
+.menu-gam i:hover{
+  color: rgb(148, 127, 8);
+}
+.fb-int{
+  position: absolute;
+  bottom: 10px;
+}
+.fb-int h3{
+  transform: rotate(-90deg);
+  margin: 30px 45px;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.fb-int h3:hover{
+  color: rgb(196, 167, 4);
+
+}
+
+
+/* main  */
+main{
+  width: 100%;
+}
+.navbar{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  margin: 30px auto;
+}
+.navbar .box-gam{
+  display: none;
+}
+.navbar > a{
+  font-size: 60px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+.navbar >a:hover{
+  color: rgb(148, 127, 8);
+}
+.menu-nav{
+  margin-left: 300px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.menu-nav li{
+  display: flex;
+  margin-left: 30px;
+  padding-bottom: 10px;
+  transition: 0s;
+}
+.menu-nav li:hover{
+  border-bottom: 5px solid rgb(148, 127, 8);
+}
+.menu-nav li a{
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.menu-nav ul li a:hover{
+  color: rgb(196, 167, 4);
+}
+.navbar i{
+  font-size: 30px;
+  margin-left: 50px;
+  color: rgb(196, 167, 4);
+  cursor: pointer;
+}
+
+.info-main{
+  margin-top: 100px;
+  width: 100%;
+  background-color: rgba(133, 130, 130, 0);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+.info-main .info-num h2{
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+}
+.info-num .width{
+  width: 500px;
+  height: 10px;
+  background-color: rgb(73, 71, 73);
+  border-radius: 15px;
+  margin: 10px 0;
+}
+.width .absal{
+  width: 300px;
+  height: 10px;
+  background-color: rgb(255, 94, 0);
+  border-radius: 15px;
+}
+.info-num h3 {
+  font-size: 25px;
+  color: white;
+}
+.info-num p{
+  color: rgb(134, 134, 134);
+  font-size: 18px;
+  margin: 10px 0;
+}
+.info-work{
+  color: white;
+  width: 500px;
+}
+.info-work h1 a{
+  font-size: 60px;
+  color: white;
+  text-decoration: none;
+}
+.info-work p{
+  color: rgb(134, 134, 134);
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* card */
+
+.card{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(43, 42, 43, 0.404);
+  position: relative;
+  top: 190px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 20px 50px 0 50px;
+}
+.card h3{
+  color: white;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin: 10px;
+}
+.card p{
+  color: rgb(134, 134, 134);
+  font-size: 18px;
+  margin: 10px 0;
+  width: 300px;
+}
+.pop{
+  margin-top: 30px;
+}
+.imgbox{
+  position: relative;
+  bottom: 20px;
+  background-color: rgb(56, 56, 56);
+  width: 250px;
+  height: 200px;
+}
+.imgbox img{
+  width: 98%;
+  height: 98%;
+}
+.news a{
+  margin-top: 20px;
+  color: rgb(196, 167, 4);
+  text-decoration: none;
+  font-size: 25px;
+
+}
